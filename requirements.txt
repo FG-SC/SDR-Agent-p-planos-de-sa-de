@@ -1,0 +1,11 @@
+langchain-community==0.3.12  # ou a versão mais recente compatível
+langchain-google-genai # ou a versão mais recente compatível
+supabase       # ou a versão mais recente compatível
+pypdf>=4.2.0               # ou a versão mais recente compatível
+python-dotenv    
+
+streamlit>=1.28.0
+google-genai>=0.1.0
+langchain>=0.1.0
+langchain-core>=0.1.0
+numpy>=1.24.0
