@@ -164,7 +164,7 @@ def initialize_rag_model():
             # Prompt para contextualização
             contextualize_q_system_prompt = (
                 "Dada uma conversa de chat e a última pergunta do usuário, "
-                "formule uma pergunta independente que possa ser entendida sem o histórico do chat. "
+                "formule uma pergunta independente que possa ser entendida com o histórico do chat. "
                 "NÃO responda à pergunta, apenas reformule-a se necessário."
             )
             
@@ -582,3 +582,4 @@ st.markdown(
     "</div>", 
     unsafe_allow_html=True
 )
+
