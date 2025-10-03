@@ -1,4 +1,4 @@
-# 🏥 Agente SDR com IA para Venda de Planos de Saúde
+# 🏥 [Agente SDR com IA para Venda de Planos de Saúde](https://sdr-agent-demo.streamlit.app/)
 
 Este projeto implementa um Agente de IA para Vendas (SDR - *Sales Development Representative*), construído com uma arquitetura RAG (*Retrieval-Augmented Generation*), para qualificar e guiar potenciais clientes na escolha de planos de saúde empresariais através de um chatbot interativo.
 
