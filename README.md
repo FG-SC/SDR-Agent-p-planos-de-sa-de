@@ -33,7 +33,7 @@ O projeto é dividido em duas fases principais: **1. Processamento e Ingestão d
 3.  **Retriever Consciente de Histórico:** A pergunta do usuário é primeiro reformulada com base no histórico da conversa para criar uma consulta mais precisa e contextual.
 4.  **Busca Vetorial (Retrieval):** O sistema busca no Supabase os chunks de informação mais relevantes semanticamente para a pergunta do usuário.
 5.  **Aumento de Contexto (Augmentation):** Os documentos recuperados são injetados em um prompt robusto, que instrui o LLM a agir como um SDR especialista.
-6.  **Geração da Resposta (Generation):** O modelo **Gemini 1.5 Flash** recebe o prompt aumentado e gera uma resposta consultiva, utilizando apenas as informações fornecidas para garantir a precisão e evitar alucinações.
+6.  **Geração da Resposta (Generation):** O modelo **Gemini 2.0 Flash** recebe o prompt aumentado e gera uma resposta consultiva, utilizando apenas as informações fornecidas para garantir a precisão e evitar alucinações.
 7.  **Hand-off:** Ao final de uma qualificação bem-sucedida, o agente direciona o usuário a um vendedor humano.
 
 ## 🚀 Stack Tecnológica
@@ -43,7 +43,7 @@ O projeto é dividido em duas fases principais: **1. Processamento e Ingestão d
       * LangChain: Para construir e gerenciar a cadeia RAG.
       * Google Generative AI: Para acesso aos modelos Gemini e de embedding.
   * **Modelos de IA:**
-      * **LLM:** `gemini-1.5-flash`
+      * **LLM:** `gemini-2.0-flash`
       * **Embedding:** `models/text-embedding-004`
   * **Interface Web e Visualização:**
       * Streamlit: Para a criação da interface do chatbot e dashboard.
