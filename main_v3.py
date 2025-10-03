@@ -218,7 +218,11 @@ def parse_specific_price_table(df, filename, page_num, page_text):
     plan_columns = []
     for col in df.columns[1:]:
         col_clean = extract_plan_name(col)
-        if col_clean and len(col_clean) > 2:
+    
+    # Adicionamos uma condição para ignorar nomes como 'Col1', 'Col2', etc.
+        is_default_col_name = re.match(r'col\d+', col_clean.lower())
+
+        if col_clean and len(col_clean) > 2 and not is_default_col_name:
             plan_columns.append((col, col_clean))
     
     if not plan_columns:
