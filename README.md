@@ -4,6 +4,8 @@ Este projeto implementa um Agente de IA para Vendas (SDR - *Sales Development Re
 
 O agente atua como um assistente virtual 24/7, automatizando a fase inicial do funil de vendas, fazendo perguntas-chave para entender o perfil do cliente (número de empregados, faixa etária, orçamento, dependentes) e, ao final, direcionando os leads qualificados para um vendedor humano finalizar a negociação.
 
+teste
+
 ## ✨ Principais Funcionalidades
 
   * **Chatbot Conversacional Inteligente:** Interface construída com Streamlit que permite uma interação para cotações e tira-dúvidas.
